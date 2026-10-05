@@ -5,3 +5,16 @@
 body{background:#f6f6f6}.topline{background:#f6f6f6;color:#767676}.header{background:#f6f6f6}.toolbar{background:#e6effd}.toolbar form#search{background:#fff}.intro{background:#fff}.heroimage{background:#fff}.cardimage{background:#fff}.category{background:#fff}.sidebar,.service{background:#fff}.actions .button{background:#298070;border-color:#298070}.actions .button:hover{background:#298070}.secondary{background:#e1ebff;color:#298070;border-color:#e1ebff}.secondary:hover{background:#dbe3f9;color:#298070}.price{color:#298070}.price small{color:#767676}footer{background:#fff;color:#767676;border-top:1px solid #e5e5e5}.footergrid h3{color:#333}.footergrid .brand{color:#242424}.legal{color:#767676;border-color:#e5e5e5}.content a{color:#333333}.content a:hover{color:#242424}
 
 .brand .original-mark{display:block;position:relative;flex:0 0 40px;width:40px;height:42px;overflow:hidden;background:transparent;transform:none;border-radius:0;line-height:normal}.brand .original-mark img{position:absolute;top:0;left:0;width:249px;height:42px;max-width:none;object-fit:fill}.footergrid .brand .original-mark{margin-right:10px}
+
+/* Compact brand lockup: original emblem and aligned typography. */
+a.brand{display:inline-flex;align-items:center;gap:12px;flex-shrink:0;letter-spacing:normal;min-height:48px}
+.brand .original-mark,.footergrid .brand .original-mark{margin:0;flex:0 0 40px}
+.brand-wordmark{display:flex;flex-direction:column;gap:5px}
+.brand-wordmark strong{display:block;color:#242424;font-size:28px;font-weight:800;letter-spacing:-.75px;line-height:1}
+.brand-wordmark .brand-accent{color:#298070}
+.brand .brand-wordmark small{display:block;color:#767676;font-size:12px;letter-spacing:.1px;font-weight:400;line-height:1.35}
+a.brand:hover .brand-wordmark strong{color:#333}
+.footergrid .brand{gap:10px}
+.footergrid .brand-wordmark strong{font-size:24px}
+.footergrid .brand-wordmark small{font-size:12px}
+@media(max-width:760px){.brand-wordmark strong{font-size:25px}.brand-wordmark{gap:4px}.brand .brand-wordmark small{font-size:12px}.header{row-gap:16px}.footergrid .brand{align-items:flex-start}.footergrid .brand .original-mark{display:none}.footergrid .brand-wordmark strong{font-size:21px}.footergrid .brand-wordmark small{white-space:normal;max-width:170px}}
