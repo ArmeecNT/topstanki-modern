@@ -18,3 +18,19 @@ a.brand:hover .brand-wordmark strong{color:#333}
 .footergrid .brand-wordmark strong{font-size:24px}
 .footergrid .brand-wordmark small{font-size:12px}
 @media(max-width:760px){.brand-wordmark strong{font-size:25px}.brand-wordmark{gap:4px}.brand .brand-wordmark small{font-size:12px}.header{row-gap:16px}.footergrid .brand{align-items:flex-start}.footergrid .brand .original-mark{display:none}.footergrid .brand-wordmark strong{font-size:21px}.footergrid .brand-wordmark small{white-space:normal;max-width:170px}}
+/* Corporate orange sampled from the original TOPSTANKI emblem. */
+:root{--orange:#ed923a;--orange-hover:#e68426;--orange-text:#a64e0b;--orange-soft:#fff4e8}
+header{border-top:3px solid var(--orange)}
+.button,button.primary,.actions .button{background:var(--orange);border-color:var(--orange);color:#242424}
+.button:hover,button.primary:hover,.actions .button:hover{background:var(--orange-hover);border-color:var(--orange-hover);color:#242424}
+.eyebrow,.service .number{color:var(--orange-text)}
+.service{border-top-color:var(--orange)}
+.category:hover{border-color:var(--orange);background:var(--orange-soft)}
+.iconbutton.active{color:var(--orange-text);border-color:var(--orange);background:var(--orange-soft)}
+.sidebar a.selected{color:var(--orange-text)}
+.pagination button:not(:disabled):hover{background:var(--orange-soft);border-color:var(--orange)}
+.secondary:hover{background:var(--orange-soft);border-color:var(--orange);color:var(--orange-text)}
+.content [data-calculator] button{background:var(--orange);color:#242424}
+#search button{color:var(--orange-text);font-weight:600}
+.proof b{color:var(--orange-text)}
+.sectionhead a:hover,nav a:hover,.footergrid a:hover{color:var(--orange-text)}
