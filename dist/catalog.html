@@ -1,0 +1,1131 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Каталог оборудования — ТОПСТАНКИ</title>
+<meta name="description" content="Станки ТОПСТАНКИ для резки, гибки, обработки дерева и металла. Подбор по задаче, материалу и модели.">
+<link rel="stylesheet" href="style.css">
+<script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">К содержимому</a>
+<header class="header shell">
+<a class="brand" href="index.html"><span class="symbol" aria-hidden="true">Т</span>ТОПСТАНКИ</a>
+<nav aria-label="Основное меню"><a href="catalog.html" aria-current="page">Каталог</a><a href="index.html#guide">Как выбрать</a><a href="https://topstanki.ru/page/obuchenie-operatorov-chpu/">Обучение</a></nav>
+<a class="contact" href="tel:+78005052009">8 800 505-20-09</a>
+</header>
+<main id="main">
+<section class="shell catalog-heading">
+<a class="crumb" href="index.html">Главная</a><h1>Каталог оборудования</h1>
+<p class="intro">Выберите задачу или введите название модели.</p>
+</section>
+<section class="shell catalog" aria-label="Подбор оборудования">
+<form id="filters" class="filters" hidden>
+<label for="query">Модель или тип станка</label><input id="query" type="search" placeholder="Например, TS-1325">
+<label for="task">Задача</label><select id="task"><option value="">Все задачи</option><option value="cut">Резать металл</option><option value="bend">Гнуть лист</option><option value="metal">Делать детали</option><option value="wood">Работать с деревом</option><option value="stone">Работать с камнем и формами</option><option value="finish">Сваривать и очищать</option><option value="parts">Оснастить мастерскую</option></select>
+<label for="material">Материал</label><select id="material"><option value="">Все материалы</option><option value="metal">Металл</option><option value="wood">Дерево и плиты</option><option value="stone">Камень</option><option value="forms">Модельные материалы</option></select>
+<details data-filter-group="cut"><summary>Резать металл</summary><label class="check"><input type="checkbox" value="Лазерная резка листа">Лазерная резка листа</label><label class="check"><input type="checkbox" value="Лазерные станки по металлу с защитной кабиной">Лазерные станки по металлу с защитной кабиной</label><label class="check"><input type="checkbox" value="Лазерные станки с ЧПУ открытого типа">Лазерные станки с ЧПУ открытого типа</label><label class="check"><input type="checkbox" value="Лазерный комплекс с рулонной подачей">Лазерный комплекс с рулонной подачей</label><label class="check"><input type="checkbox" value="Лазерный труборез с ЧПУ">Лазерный труборез с ЧПУ</label></details><details data-filter-group="bend"><summary>Гнуть лист</summary><label class="check"><input type="checkbox" value="Гидравлические листогибочные станки">Гидравлические листогибочные станки</label><label class="check"><input type="checkbox" value="Панелегибы автоматические с ЧПУ">Панелегибы автоматические с ЧПУ</label></details><details data-filter-group="metal"><summary>Делать детали</summary><label class="check"><input type="checkbox" value="Вертикально обрабатывающий центр">Вертикально обрабатывающий центр</label><label class="check"><input type="checkbox" value="Токарно фрезерные станки с ЧПУ">Токарно фрезерные станки с ЧПУ</label><label class="check"><input type="checkbox" value="Токарные станки с ЧПУ по металлу">Токарные станки с ЧПУ по металлу</label></details><details data-filter-group="wood"><summary>Работать с деревом</summary><label class="check"><input type="checkbox" value="Кромкооблицовочные станки">Кромкооблицовочные станки</label><label class="check"><input type="checkbox" value="Сверлильно присадочные станки">Сверлильно присадочные станки</label><label class="check"><input type="checkbox" value="Форматно раскроечные станки">Форматно раскроечные станки</label><label class="check"><input type="checkbox" value="Фрезерные станки ЧПУ для домашней мастерской">Фрезерные станки ЧПУ для домашней мастерской</label><label class="check"><input type="checkbox" value="Фрезерные станки ЧПУ легкой серии L">Фрезерные станки ЧПУ легкой серии L</label><label class="check"><input type="checkbox" value="Фрезерные станки ЧПУ промышленной серии">Фрезерные станки ЧПУ промышленной серии</label><label class="check"><input type="checkbox" value="Фрезерные станки ЧПУ с АТС">Фрезерные станки ЧПУ с АТС</label><label class="check"><input type="checkbox" value="Фрезерные станки ЧПУ с поворотным шпинделем">Фрезерные станки ЧПУ с поворотным шпинделем</label></details><details data-filter-group="stone"><summary>Работать с камнем и формами</summary><label class="check"><input type="checkbox" value="Станки ЧПУ обработка модельной оснастки">Станки ЧПУ обработка модельной оснастки</label><label class="check"><input type="checkbox" value="Фрезерные станки ЧПУ по камню">Фрезерные станки ЧПУ по камню</label></details><details data-filter-group="finish"><summary>Сваривать и очищать</summary><label class="check"><input type="checkbox" value="Лазерная очистка металла от ржавчины">Лазерная очистка металла от ржавчины</label><label class="check"><input type="checkbox" value="Лазерный сварочный аппарат">Лазерный сварочный аппарат</label></details><details data-filter-group="parts"><summary>Оснастить мастерскую</summary><label class="check"><input type="checkbox" value="Доп оборудование для лазерных станков">Доп оборудование для лазерных станков</label><label class="check"><input type="checkbox" value="Запчасти для лазера ЧПУ">Запчасти для лазера ЧПУ</label><label class="check"><input type="checkbox" value="Компрессор">Компрессор</label><label class="check"><input type="checkbox" value="Опции для лазера">Опции для лазера</label><label class="check"><input type="checkbox" value="Опции для фрезера ЧПУ">Опции для фрезера ЧПУ</label><label class="check"><input type="checkbox" value="Расходники и запчасти">Расходники и запчасти</label><label class="check"><input type="checkbox" value="Система загрузки металлических листов">Система загрузки металлических листов</label><label class="check"><input type="checkbox" value="Система фильтрации">Система фильтрации</label><label class="check"><input type="checkbox" value="Системы управления и лазерные головки">Системы управления и лазерные головки</label><label class="check"><input type="checkbox" value="Стабилизаторы">Стабилизаторы</label><label class="check"><input type="checkbox" value="Стационарные аспирационные установки">Стационарные аспирационные установки</label></details>
+<label class="check"><input type="checkbox" id="sale">Из рубрики «Распродажа»</label>
+<button class="button secondary" type="reset">Сбросить фильтры</button>
+</form>
+<div class="results">
+<p id="count" role="status" aria-live="polite">Позиций в каталоге: 217</p>
+<noscript><p>Для поиска и фильтров включите JavaScript. Все карточки доступны ниже.</p></noscript>
+<p id="empty" hidden>Ничего не найдено. Измените запрос или сбросьте фильтры.</p>
+<div class="product-grid"><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система загрузки металлических листов&quot;]">
+<div class="product-picture"><img src="assets/6a6c471251edfb8c.webp" loading="lazy" decoding="async" alt="Автоматическая консольная погрузочная машина OR-LT3015"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Автоматическая консольная погрузочная машина OR-LT3015</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/avtomaticheskaya-konsolnaya-pogruzochnaya-mashina-or-lt3015/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система загрузки металлических листов&quot;]">
+<div class="product-picture"><img src="assets/b828df52f806fdff.webp" loading="lazy" decoding="async" alt="Автоматическая погрузочно-разгрузочная машина OR-LG3015"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Автоматическая погрузочно-разгрузочная машина OR-LG3015</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/avtomaticheskaya-pogruzochno-razgruzochnaya-mashina-or-lg3015/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система загрузки металлических листов&quot;]">
+<div class="product-picture"><img src="assets/a81acec3e0dec755.webp" loading="lazy" decoding="async" alt="Автоматическая погрузочно-разгрузочная машина OR-LH3015"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Автоматическая погрузочно-разгрузочная машина OR-LH3015</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/avtomaticheskaya-pogruzochno-razgruzochnaya-mashina-or-lh3015/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/c14d6aa14afdf283.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 12000"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 12000</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-12000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/8078a8c7cbe5a51d.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 1500"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 1500</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-1500/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1f626e54c426c341.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 2000"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 2000</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-2000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/331c91a7ce58f679.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 20000"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 20000</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-20000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/9f65305f7449a815.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 3000"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 3000</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-3000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/a1de5085aba71715.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 30000"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 30000</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-30000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/54a7eb325a24a1af.webp" loading="lazy" decoding="async" alt="Чиллер HANLI HL 6000"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Чиллер HANLI HL 6000</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chiller-hanli-hl-6000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/37054a0f190dd2ff.webp" loading="lazy" decoding="async" alt="Чпу контроллер FSCUT 2000C"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Чпу контроллер FSCUT 2000C</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chpu-kontroller-fscut-2000c/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/9f13af096a4687f5.webp" loading="lazy" decoding="async" alt="Чпу контроллер FSCUT 4000C"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Чпу контроллер FSCUT 4000C</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chpu-kontroller-fscut-4000c/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/06e95a1a52073349.webp" loading="lazy" decoding="async" alt="Чпу контроллер FSCUT 6000C"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Чпу контроллер FSCUT 6000C</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chpu-kontroller-fscut-6000c/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/06e95a1a52073349.webp" loading="lazy" decoding="async" alt="Чпу контроллер FSCUT 8000C"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Чпу контроллер FSCUT 8000C</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/chpu-kontroller-fscut-8000c/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Гидравлические листогибочные станки&quot;]">
+<div class="product-picture"><img src="assets/9bb403e54af56ba1.webp" loading="lazy" decoding="async" alt="Электромеханический пресс PFE-35/1200"></div>
+<div class="product-body"><p class="product-type">Гидравлические листогибочные станки</p>
+<h2>Электромеханический пресс PFE-35/1200</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/elektromehanicheskij-press-pfe-35-1200/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Форматно раскроечные станки&quot;]">
+<div class="product-picture"><img src="assets/9cd575024f5a23d6.webp" loading="lazy" decoding="async" alt="Форматно раскроечный станок TS 6132"></div>
+<div class="product-body"><p class="product-type">Форматно раскроечные станки</p>
+<h2>Форматно раскроечный станок TS 6132</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/formatno-raskroechnyj-stanok-ts-6132/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Форматно раскроечные станки&quot;]">
+<div class="product-picture"><img src="assets/9cd575024f5a23d6.webp" loading="lazy" decoding="async" alt="Форматно раскроечный станок TS 6132L"></div>
+<div class="product-body"><p class="product-type">Форматно раскроечные станки</p>
+<h2>Форматно раскроечный станок TS 6132L</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/formatno-raskroechnyj-stanok-ts-6132l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="stone" data-types="[&quot;Станки ЧПУ обработка модельной оснастки&quot;]">
+<div class="product-picture"><img src="assets/e755a2b89d1b336c.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ SF 3012"></div>
+<div class="product-body"><p class="product-type">Станки ЧПУ обработка модельной оснастки</p>
+<h2>Фрезерный станок с ЧПУ SF 3012</h2><p class="product-note">Камень и модельные материалы</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-sf3012/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ промышленной серии&quot;]">
+<div class="product-picture"><img src="assets/37162363f60f6252.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1212"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ промышленной серии</p>
+<h2>Фрезерный станок с ЧПУ TS-1212</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1212/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/417e24fb6333f771.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1325 ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-1325 ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1325-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;, &quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/417e24fb6333f771.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1325 ATCL"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS-1325 ATCL</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1325-atcl/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;, &quot;Фрезерные станки ЧПУ с поворотным шпинделем&quot;]">
+<div class="product-picture"><img src="assets/9ff3b218316f7489.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1325 ATCR"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-1325 ATCR</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1325-atcr/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/c851e61a8be26c28.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1325 S-ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-1325 S-ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1325-s-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ промышленной серии&quot;]">
+<div class="product-picture"><img src="assets/c851e61a8be26c28.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1325"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ промышленной серии</p>
+<h2>Фрезерный станок с ЧПУ TS-1325</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1325/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;]">
+<div class="product-picture"><img src="assets/0659d83546f47e84.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS 1325L"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS 1325L</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1325l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/e26558ec89db68e8.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1515 S-ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-1515 S-ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1515-s-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ промышленной серии&quot;]">
+<div class="product-picture"><img src="assets/e26558ec89db68e8.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1515"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ промышленной серии</p>
+<h2>Фрезерный станок с ЧПУ TS-1515</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1515/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;]">
+<div class="product-picture"><img src="assets/b731661c156dff3e.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS 1515L"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS 1515L</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1515l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/a0094bcdb813e272.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1625 S-ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-1625 S-ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1625-s-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ промышленной серии&quot;]">
+<div class="product-picture"><img src="assets/a0094bcdb813e272.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-1625"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ промышленной серии</p>
+<h2>Фрезерный станок с ЧПУ TS-1625</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1625/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;]">
+<div class="product-picture"><img src="assets/0659d83546f47e84.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS 1625L"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS 1625L</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-1625l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/e6c166104a26bca9.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2030 ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-2030 ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2030-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;, &quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/bfc4fa9f0f0147df.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2030 ATCL"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS-2030 ATCL</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2030-atcl/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;, &quot;Фрезерные станки ЧПУ с поворотным шпинделем&quot;]">
+<div class="product-picture"><img src="assets/d85c1a51f25a355d.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2030 ATCR"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-2030 ATCR</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2030-atcr/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/bfc4fa9f0f0147df.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2030 S-ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-2030 S-ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2030-s-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ промышленной серии&quot;]">
+<div class="product-picture"><img src="assets/e1525ec5eaa0fefd.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2030"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ промышленной серии</p>
+<h2>Фрезерный станок с ЧПУ TS-2030</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2030/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;]">
+<div class="product-picture"><img src="assets/2982420f9229757b.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS 2030L"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS 2030L</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2030l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/e6c166104a26bca9.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2040 ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-2040 ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2040-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;, &quot;Фрезерные станки ЧПУ с поворотным шпинделем&quot;]">
+<div class="product-picture"><img src="assets/d85c1a51f25a355d.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2040 ATCR"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-2040 ATCR</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2040-atcr/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ с АТС&quot;]">
+<div class="product-picture"><img src="assets/bfc4fa9f0f0147df.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2040 S-ATC"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ с АТС</p>
+<h2>Фрезерный станок с ЧПУ TS-2040 S-ATC</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2040-s-atc/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ промышленной серии&quot;]">
+<div class="product-picture"><img src="assets/59461055c9c58515.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-2040"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ промышленной серии</p>
+<h2>Фрезерный станок с ЧПУ TS-2040</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2040/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ легкой серии L&quot;]">
+<div class="product-picture"><img src="assets/b42bb41c998b220b.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS 2040L"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ легкой серии L</p>
+<h2>Фрезерный станок с ЧПУ TS 2040L</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-2040l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Фрезерные станки ЧПУ для домашней мастерской&quot;]">
+<div class="product-picture"><img src="assets/a25976784dbed24b.webp" loading="lazy" decoding="async" alt="Фрезерный станок с ЧПУ TS-6090 для хобби"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ для домашней мастерской</p>
+<h2>Фрезерный станок с ЧПУ TS-6090 для хобби</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-s-chpu-ts-6090/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="stone" data-types="[&quot;Фрезерные станки ЧПУ по камню&quot;]">
+<div class="product-picture"><img src="assets/2c2eff89885e82e5.webp" loading="lazy" decoding="async" alt="Фрезерный станок TS-1325M по камню"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ по камню</p>
+<h2>Фрезерный станок TS-1325M по камню</h2><p class="product-note">Камень и модельные материалы</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-ts-1325m-po-kamnyu/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="stone" data-types="[&quot;Фрезерные станки ЧПУ по камню&quot;]">
+<div class="product-picture"><img src="assets/2c2eff89885e82e5.webp" loading="lazy" decoding="async" alt="Фрезерный станок TS-1530M по камню"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ по камню</p>
+<h2>Фрезерный станок TS-1530M по камню</h2><p class="product-note">Камень и модельные материалы</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-ts-1530m-po-kamnyu/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="stone" data-types="[&quot;Фрезерные станки ЧПУ по камню&quot;]">
+<div class="product-picture"><img src="assets/2c2eff89885e82e5.webp" loading="lazy" decoding="async" alt="Фрезерный станок TS-6090M по камню"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ по камню</p>
+<h2>Фрезерный станок TS-6090M по камню</h2><p class="product-note">Камень и модельные материалы</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-ts-6090m-po-kamnyu/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="stone" data-types="[&quot;Фрезерные станки ЧПУ по камню&quot;]">
+<div class="product-picture"><img src="assets/2c2eff89885e82e5.webp" loading="lazy" decoding="async" alt="Фрезерный станок TS-9015M по камню"></div>
+<div class="product-body"><p class="product-type">Фрезерные станки ЧПУ по камню</p>
+<h2>Фрезерный станок TS-9015M по камню</h2><p class="product-note">Камень и модельные материалы</p>
+<a href="https://topstanki.ru/product/frezernyj-stanok-ts-9015m-po-kamnyu/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Гидравлические листогибочные станки&quot;]">
+<div class="product-picture"><img src="assets/8c4b956f4a1b65fb.webp" loading="lazy" decoding="async" alt="Гидравлический листогибочный пресс TS-40/2000"></div>
+<div class="product-body"><p class="product-type">Гидравлические листогибочные станки</p>
+<h2>Гидравлический листогибочный пресс TS-40/2000</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/gidravlicheskij-listogibochnyj-press-ts-40-2000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система загрузки металлических листов&quot;]">
+<div class="product-picture"><img src="assets/2a205c44ad586df4.webp" loading="lazy" decoding="async" alt="Консольная погрузочная машина OR-LS3015"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Консольная погрузочная машина OR-LS3015</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/konsolnaya-pogruzochnaya-mashina-or-ls3015/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Кромкооблицовочные станки&quot;]">
+<div class="product-picture"><img src="assets/88834e3d2cce2225.webp" loading="lazy" decoding="async" alt="Кромкооблицовочный станок TS 516A"></div>
+<div class="product-body"><p class="product-type">Кромкооблицовочные станки</p>
+<h2>Кромкооблицовочный станок TS 516A</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/kromkoobliczovochnyj-stanok-ts-516a/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Кромкооблицовочные станки&quot;]" data-sale="true">
+<div class="product-picture"><img src="assets/6b9d274803019c1a.webp" loading="lazy" decoding="async" alt="Кромкооблицовочный станок TS50A Compact ( с прифуговкой )"></div>
+<div class="product-body"><p class="product-type">Кромкооблицовочные станки</p>
+<h2>Кромкооблицовочный станок TS50A Compact ( с прифуговкой )</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/kromkoobliczovochnyj-stanok-ts50a-compact-s-prifugovkoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Кромкооблицовочные станки&quot;]" data-sale="true">
+<div class="product-picture"><img src="assets/be1c6a2ac8cf9fbb.webp" loading="lazy" decoding="async" alt="Кромкооблицовочный станок TS50A Compact"></div>
+<div class="product-body"><p class="product-type">Кромкооблицовочные станки</p>
+<h2>Кромкооблицовочный станок TS50A Compact</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/kromkoobliczovochnyj-stanok-ts50a-compact/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;]">
+<div class="product-picture"><img src="assets/82afa6ddd2f9da5e.webp" loading="lazy" decoding="async" alt="Лазерная чистка металла OR-LC 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Лазерная чистка металла OR-LC 1500w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernaya-chistka-metalla-or-lc-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;]">
+<div class="product-picture"><img src="assets/82afa6ddd2f9da5e.webp" loading="lazy" decoding="async" alt="Лазерная чистка металла OR-LC 2000w"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Лазерная чистка металла OR-LC 2000w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernaya-chistka-metalla-or-lc-2000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;]">
+<div class="product-picture"><img src="assets/82afa6ddd2f9da5e.webp" loading="lazy" decoding="async" alt="Лазерная чистка металла OR-LC 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Лазерная чистка металла OR-LC 3000w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernaya-chistka-metalla-or-lc-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT310"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT310</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt310/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/537340834f3ded24.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT421S"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT421S</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt421s/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT441"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT441</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt441/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT442"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT442</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt442/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT6102H"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Лазерная голова BOCI BLT6102H</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt6102h/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT662H"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT662H</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt662h/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT663H"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT663H</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt663h/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT682H"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT682H</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt682h/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/1d37098f90bcdfdf.webp" loading="lazy" decoding="async" alt="Лазерная голова BOCI BLT683H"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова BOCI BLT683H</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-boci-blt683h/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;, &quot;Запчасти для лазера ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/625a3a10e7edcd27.webp" loading="lazy" decoding="async" alt="Лазерная голова RayTools BM06K"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерная голова RayTools BM06K</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernaya-golova-raytools-bm06k/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;, &quot;Лазерный сварочный аппарат&quot;]">
+<div class="product-picture"><img src="assets/072dc6b9d3651f6d.webp" loading="lazy" decoding="async" alt="Лазерная сварка очистка 4в1 1500w TS-LazerWeld"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Лазерная сварка очистка 4в1 1500w TS-LazerWeld</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernaya-svarka-ochistka-4v1-1500w-ts-lazerweld/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;, &quot;Лазерный сварочный аппарат&quot;]">
+<div class="product-picture"><img src="assets/072dc6b9d3651f6d.webp" loading="lazy" decoding="async" alt="Лазерная сварка очистка 4в1 2000w TS-LazerWeld"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Лазерная сварка очистка 4в1 2000w TS-LazerWeld</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernaya-svarka-ochistka-4v1-2000w-ts-lazerweld/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;, &quot;Лазерный сварочный аппарат&quot;]">
+<div class="product-picture"><img src="assets/072dc6b9d3651f6d.webp" loading="lazy" decoding="async" alt="Лазерная сварка очистка 4в1 3000w TS-LazerWeld"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Лазерная сварка очистка 4в1 3000w TS-LazerWeld</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernaya-svarka-ochistka-4v1-3000w-ts-lazerweld/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/9adbec6501adf32e.webp" loading="lazy" decoding="async" alt="Лазерный голова OREE Sword S03T"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Лазерный голова OREE Sword S03T</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-golova-oree-sword-s03t/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/1c51d656f0362ecb.webp" loading="lazy" decoding="async" alt="Лазерный голова RayTools BM06K"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Лазерный голова RayTools BM06K</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-golova-raytools-bm06k/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/e547634a7b1cf563.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 12000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 12000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/e0652baac9611165.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 1500w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 1500w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/5de243a4a1421ca9.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 20000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 20000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/127098cea3c9e6e4.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 2000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 2000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-2000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/5de243a4a1421ca9.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 30000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 30000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-30000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/ee62a806b7ffed4c.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 3000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 3000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/4f96e21ed402bf8f.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 40000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 40000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-40000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для лазера&quot;]">
+<div class="product-picture"><img src="assets/0b4b6b2b5fbcb13e.webp" loading="lazy" decoding="async" alt="Лазерный источник Raycus 6000w"></div>
+<div class="product-body"><p class="product-type">Опции для лазера</p>
+<h2>Лазерный источник Raycus 6000w</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/lazernyj-istochnik-raycus-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-3015 6000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-3015 6000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-3015-6000w-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-3015 3000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-3015 3000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-3015-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-6015 12000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-6015 12000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-6015-12000w-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-6015 6000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-6015 6000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-6015-6000w-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-6015 3000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-6015 3000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-6015-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-6020 12000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-6020 12000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-6020-12000w-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-6020 20000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-6020 20000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-6020-20000w-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/abce55151fe9ead5.webp" loading="lazy" decoding="async" alt="Лазерный станок EG-6020 6000w сменные столы"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок EG-6020 6000w сменные столы</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-eg-6020-smennye-stoly/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-3015 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-3015 1500w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-3015-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-3015 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-3015 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-3015-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-3015 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-3015 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-3015-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/84cfe6a5ce5a7693.webp" loading="lazy" decoding="async" alt="Лазерный станок F-4020 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-4020 1500w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-4020-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/84cfe6a5ce5a7693.webp" loading="lazy" decoding="async" alt="Лазерный станок F-4020 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-4020 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-4020-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/84cfe6a5ce5a7693.webp" loading="lazy" decoding="async" alt="Лазерный станок F-4020 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-4020 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-4020-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6015 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6015 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6015-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6015 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6015 1500w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6015-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6015 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6015 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6015-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/5246460ffea9891b.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6015 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6015 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6015-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/0c68a7e4bfc382ac.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6020 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6020 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6020-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/0c68a7e4bfc382ac.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6020 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6020 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6020-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/0c68a7e4bfc382ac.webp" loading="lazy" decoding="async" alt="Лазерный станок F-6020 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок F-6020 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-f-6020-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/0c68a7e4bfc382ac.webp" loading="lazy" decoding="async" alt="Лазерный станок FB-6020 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок FB-6020 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-fb-6020-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/9b1ddf54280b9be9.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×12100 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок GR 2500×12100 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x12100-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/8e04c238dd6c0f83.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×12100 PRO 20000w с защитной кабиной."></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок GR 2500×12100 PRO 20000w с защитной кабиной.</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x12100-pro-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/8e04c238dd6c0f83.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×12100 PRO 12000w с защитной кабиной."></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок GR 2500×12100 PRO 12000w с защитной кабиной.</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x12100-pro-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/9b1ddf54280b9be9.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×12100 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок GR 2500×12100 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x12100-s-bolshim-r-polem/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/9b1ddf54280b9be9.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×6100 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок GR 2500×6100 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x6100-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/8e04c238dd6c0f83.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×6100 PRO 20000w с защитной кабиной."></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок GR 2500×6100 PRO 20000w с защитной кабиной.</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x6100-pro-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/8e04c238dd6c0f83.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×6100 PRO 12000w с защитной кабиной."></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок GR 2500×6100 PRO 12000w с защитной кабиной.</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x6100-pro-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/9b1ddf54280b9be9.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 2500×6100 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок GR 2500×6100 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-2500x6100-s-bolshim-r-polem/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/9b1ddf54280b9be9.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 3200×6500 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок GR 3200×6500 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-3200x6500-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/8e04c238dd6c0f83.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 3200×6500 PRO 20000w с защитной кабиной."></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок GR 3200×6500 PRO 20000w с защитной кабиной.</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-3200x6500-pro-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/8e04c238dd6c0f83.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 3200×6500 PRO 12000w с защитной кабиной."></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок GR 3200×6500 PRO 12000w с защитной кабиной.</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-3200x6500-pro-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/9b1ddf54280b9be9.webp" loading="lazy" decoding="async" alt="Лазерный станок GR 3200×6500 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок GR 3200×6500 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-gr-3200x6500-s-bolshim-r-polem/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/96bba2d77ff2b627.webp" loading="lazy" decoding="async" alt="Лазерный станок H3015 20000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок H3015 20000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-h3015-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/96bba2d77ff2b627.webp" loading="lazy" decoding="async" alt="Лазерный станок H3015 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок H3015 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-h3015-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/96bba2d77ff2b627.webp" loading="lazy" decoding="async" alt="Лазерный станок H6020 20000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок H6020 20000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-h6020-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/96bba2d77ff2b627.webp" loading="lazy" decoding="async" alt="Лазерный станок H6020 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок H6020 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-h6020-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/7c6976034918be90.webp" loading="lazy" decoding="async" alt="Лазерный станок PB3015 20000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PB3015 20000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pb3015-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/7c6976034918be90.webp" loading="lazy" decoding="async" alt="Лазерный станок PB3015 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PB3015 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pb3015-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/7c6976034918be90.webp" loading="lazy" decoding="async" alt="Лазерный станок PB6020 20000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PB6020 20000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pb6020-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/7c6976034918be90.webp" loading="lazy" decoding="async" alt="Лазерный станок PB6020 30000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PB6020 30000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pb6020-30000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/7c6976034918be90.webp" loading="lazy" decoding="async" alt="Лазерный станок PB6020 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PB6020 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pb6020-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG3015 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG3015 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg3015-12000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG3015 6000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG3015 6000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg3015-6000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG3015 3000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG3015 3000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg3015-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG6015 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG6015 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg6015-12000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG6015 6000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG6015 6000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg6015-6000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG6015 3000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG6015 3000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg6015-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG6020 12000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG6020 12000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg6020-12000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG6020 20000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG6020 20000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg6020-20000w-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки по металлу с защитной кабиной&quot;]">
+<div class="product-picture"><img src="assets/a300de137f26af92.webp" loading="lazy" decoding="async" alt="Лазерный станок PG6020 6000w с защитной кабиной"></div>
+<div class="product-body"><p class="product-type">Лазерные станки по металлу с защитной кабиной</p>
+<h2>Лазерный станок PG6020 6000w с защитной кабиной</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-pg6020-s-zashhitnoj-kabinoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1530D 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1530D 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1530-d-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1530D 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1530D 1500w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1530-d-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1530D 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1530D 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1530-d-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1530D 2000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1530D 2000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1530-d-2000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1530D 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1530D 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1530-d-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1530D 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1530D 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1530-d/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1560D 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1560D 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1560-d-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1560D 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1560D 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1560-d-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1560D 30000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1560D 30000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1560-d-30000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1560D 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1560D 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1560-d-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/36f34ed320db9b3f.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-1560D 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-1560D 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-1560-d-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/2b2f0aca8dddf675.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-2060D 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-2060D 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-2060-d-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/2b2f0aca8dddf675.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-2060D 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-2060D 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-2060-d-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/2b2f0aca8dddf675.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-2060D 30000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-2060D 30000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-2060-d-30000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;]">
+<div class="product-picture"><img src="assets/2b2f0aca8dddf675.webp" loading="lazy" decoding="async" alt="Лазерный станок по металлу TS-2060D 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок по металлу TS-2060D 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-po-metallu-ts-2060-d-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерные станки с ЧПУ открытого типа&quot;, &quot;Лазерный комплекс с рулонной подачей&quot;]">
+<div class="product-picture"><img src="assets/714d73a336db9b3d.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ R8015 6000w с автоматической рулонной подачей"></div>
+<div class="product-body"><p class="product-type">Лазерные станки с ЧПУ открытого типа</p>
+<h2>Лазерный станок с ЧПУ R8015 6000w с автоматической рулонной подачей</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-r8015-6000w-s-avtomaticheskoj-rulonnoj-podachej/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1530E 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1530E 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1530-e-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1530 E 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1530 E 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1530-e-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1530E 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1530E 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1530-e-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1530 E 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1530 E 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1530-e-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1560E 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1560E 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1560-e-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1560E 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1560E 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1560-e-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-1560E 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-1560E 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-1560-e-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-2040E 12000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-2040E 12000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-2040-e-12000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-2040E 20000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-2040E 20000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-2040-e-20000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/58d80f1e0da5f991.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ со сменными столами TS-2040E 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ со сменными столами TS-2040E 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-so-smennymi-stolami-ts-2040-e-6000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/2b2f0aca8dddf675.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ TS-1530L 2000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ TS-1530L 2000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-ts-1530l-2000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерная резка листа&quot;]">
+<div class="product-picture"><img src="assets/2b2f0aca8dddf675.webp" loading="lazy" decoding="async" alt="Лазерный станок с ЧПУ TS-1530L 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерная резка листа</p>
+<h2>Лазерный станок с ЧПУ TS-1530L 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-stanok-s-chpu-ts-1530l-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерный сварочный аппарат&quot;]">
+<div class="product-picture"><img src="assets/84e4d672f46db471.webp" loading="lazy" decoding="async" alt="Лазерный сварочный аппарат OR-HW 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерный сварочный аппарат</p>
+<h2>Лазерный сварочный аппарат OR-HW 1500w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernyj-svarochnyj-apparat-or-hw-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерный сварочный аппарат&quot;]">
+<div class="product-picture"><img src="assets/84e4d672f46db471.webp" loading="lazy" decoding="async" alt="Лазерный сварочный аппарат OR-HW 2000w"></div>
+<div class="product-body"><p class="product-type">Лазерный сварочный аппарат</p>
+<h2>Лазерный сварочный аппарат OR-HW 2000w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernyj-svarochnyj-apparat-or-hw-2000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерный сварочный аппарат&quot;]">
+<div class="product-picture"><img src="assets/84e4d672f46db471.webp" loading="lazy" decoding="async" alt="Лазерный сварочный аппарат OR-HW 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерный сварочный аппарат</p>
+<h2>Лазерный сварочный аппарат OR-HW 3000w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/lazernyj-svarochnyj-apparat-or-hw-3000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерный труборез с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/8d870412c3ad5b00.webp" loading="lazy" decoding="async" alt="Лазерный труборез TA 6020+A3 3000w"></div>
+<div class="product-body"><p class="product-type">Лазерный труборез с ЧПУ</p>
+<h2>Лазерный труборез TA 6020+A3 3000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-truborez-ta-6020-a3/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерный труборез с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/42226660069df06d.webp" loading="lazy" decoding="async" alt="Лазерный труборез TS-12035+S6 6000w"></div>
+<div class="product-body"><p class="product-type">Лазерный труборез с ЧПУ</p>
+<h2>Лазерный труборез TS-12035+S6 6000w</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-truborez-ts-12035-s6/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="cut" data-types="[&quot;Лазерный труборез с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/7471d9561690a949.webp" loading="lazy" decoding="async" alt="Лазерный труборез TS-TA 6020 3000w с полуавтоматической подачей труб"></div>
+<div class="product-body"><p class="product-type">Лазерный труборез с ЧПУ</p>
+<h2>Лазерный труборез TS-TA 6020 3000w с полуавтоматической подачей труб</h2><p class="product-note">Лист и труба</p>
+<a href="https://topstanki.ru/product/lazernyj-truborez-ts-ta-6020-s-avtomaticheskoj-podachej-truby/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Гидравлические листогибочные станки&quot;]">
+<div class="product-picture"><img src="assets/732b231a20ec1c39.webp" loading="lazy" decoding="async" alt="Листогибочный пресс с ЧПУ TSP-63/2500"></div>
+<div class="product-body"><p class="product-type">Гидравлические листогибочные станки</p>
+<h2>Листогибочный пресс с ЧПУ TSP-63/2500</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/listogibochnyj-press-s-chpu-tsp-63-2500/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Гидравлические листогибочные станки&quot;]">
+<div class="product-picture"><img src="assets/ef0c34645519eaed.webp" loading="lazy" decoding="async" alt="Листогибочный станок PDA синхронизированный"></div>
+<div class="product-body"><p class="product-type">Гидравлические листогибочные станки</p>
+<h2>Листогибочный станок PDA синхронизированный</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/listogibochnyj-stanok-pda-sinhronizirovannyj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/466f396d93f05eef.webp" loading="lazy" decoding="async" alt="Магазин линейного типа 8шт"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Магазин линейного типа 8шт</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/magazin-linejnogo-tipa-8sht/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/701b567056eabda6.webp" loading="lazy" decoding="async" alt="Магазин револьверного типа 12 шт"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Магазин револьверного типа 12 шт</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/magazin-revolvernogo-tipa-12-sht/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/7a64b35babdcaae7.webp" loading="lazy" decoding="async" alt="Магазин револьверного типа 16 шт"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Магазин револьверного типа 16 шт</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/magazin-revolvernogo-tipa-16-sht/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Панелегибы автоматические с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/9045ed5be818f2e8.webp" loading="lazy" decoding="async" alt="Панелегиб автоматический BDC 1500 с автосменой"></div>
+<div class="product-body"><p class="product-type">Панелегибы автоматические с ЧПУ</p>
+<h2>Панелегиб автоматический BDC 1500 с автосменой</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/panelegib-avtomaticheskij-bdc-1500-s-avtosmenoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Панелегибы автоматические с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/9045ed5be818f2e8.webp" loading="lazy" decoding="async" alt="Панелегиб автоматический BDC 2000 с автосменой"></div>
+<div class="product-body"><p class="product-type">Панелегибы автоматические с ЧПУ</p>
+<h2>Панелегиб автоматический BDC 2000 с автосменой</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/panelegib-avtomaticheskij-bdc-2000-s-avtosmenoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Панелегибы автоматические с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/9045ed5be818f2e8.webp" loading="lazy" decoding="async" alt="Панелегиб автоматический BDC 2500 с автосменой"></div>
+<div class="product-body"><p class="product-type">Панелегибы автоматические с ЧПУ</p>
+<h2>Панелегиб автоматический BDC 2500 с автосменой</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/panelegib-avtomaticheskij-bdc-2500-s-avtosmenoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Панелегибы автоматические с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/9045ed5be818f2e8.webp" loading="lazy" decoding="async" alt="Панелегиб автоматический BDC 3200 с автосменой"></div>
+<div class="product-body"><p class="product-type">Панелегибы автоматические с ЧПУ</p>
+<h2>Панелегиб автоматический BDC 3200 с автосменой</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/panelegib-avtomaticheskij-bdc-3200-s-avtosmenoj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Панелегибы автоматические с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/00f7a587ca8f9311.webp" loading="lazy" decoding="async" alt="Панелегиб автоматический PBE-2000"></div>
+<div class="product-body"><p class="product-type">Панелегибы автоматические с ЧПУ</p>
+<h2>Панелегиб автоматический PBE-2000</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/panelegib-avtomaticheskij-pbe-2000/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="bend" data-types="[&quot;Панелегибы автоматические с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/00f7a587ca8f9311.webp" loading="lazy" decoding="async" alt="Панелегиб автоматический PBE-2500"></div>
+<div class="product-body"><p class="product-type">Панелегибы автоматические с ЧПУ</p>
+<h2>Панелегиб автоматический PBE-2500</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/panelegib-avtomaticheskij-pbe-2500/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Стационарные аспирационные установки&quot;]">
+<div class="product-picture"><img src="assets/30a357e5da67b43b.webp" loading="lazy" decoding="async" alt="ВАУ МТ «КАМА» 1 500 Н"></div>
+<div class="product-body"><p class="product-type">Стационарные аспирационные установки</p>
+<h2>ВАУ МТ «КАМА» 1 500 Н</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/peredvizhnaya-vau-mt-%c2%abkama-1500%c2%bb-kopirovat-2/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Стационарные аспирационные установки&quot;]">
+<div class="product-picture"><img src="assets/c40145f2f80d275c.webp" loading="lazy" decoding="async" alt="Передвижная ВАУ МТ «КАМА 3000»"></div>
+<div class="product-body"><p class="product-type">Стационарные аспирационные установки</p>
+<h2>Передвижная ВАУ МТ «КАМА 3000»</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/peredvizhnaya-vau-mt-%c2%abkama-1500%c2%bb-kopirovat/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Стационарные аспирационные установки&quot;]">
+<div class="product-picture"><img src="assets/d6447a7162838f5e.webp" loading="lazy" decoding="async" alt="Передвижная ВАУ МТ «КАМА 3000» в комплекте с одним или двумя ПВУ"></div>
+<div class="product-body"><p class="product-type">Стационарные аспирационные установки</p>
+<h2>Передвижная ВАУ МТ «КАМА 3000» в комплекте с одним или двумя ПВУ</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/peredvizhnaya-vau-mt-%c2%abkama-3000%c2%bb-kopirovat/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Стационарные аспирационные установки&quot;]">
+<div class="product-picture"><img src="assets/5981631a91454106.webp" loading="lazy" decoding="async" alt="ВАУ МТ «КАМА» 3 000 Н"></div>
+<div class="product-body"><p class="product-type">Стационарные аспирационные установки</p>
+<h2>ВАУ МТ «КАМА» 3 000 Н</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/peredvizhnaya-vau-mt-%c2%abkama-3000%c2%bb-v-komplekte-s-odnim-ili-dvumya-pvu-kopirovat/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/b0dfb252292dd969.webp" loading="lazy" decoding="async" alt="Поворотное устройство Ø 320мм, L – 1200 мм, 2 — патрона"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Поворотное устройство Ø 320мм, L – 1200 мм, 2 — патрона</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/povorotnoe-ustrojstvo-o-320mm-l-1200-mm-2-patrona/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система фильтрации&quot;]">
+<div class="product-picture"><img src="assets/157dab7e3dce5de6.webp" loading="lazy" decoding="async" alt="Промышленная фильтрационная установка для станков лазерной резки TODC-4L"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Промышленная фильтрационная установка для станков лазерной резки TODC-4L</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/promyshlennaya-filtraczionnaya-ustanovka-dlya-stankov-lazernoj-rezki-todc-4l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система фильтрации&quot;]">
+<div class="product-picture"><img src="assets/3bd07eccf6825c44.webp" loading="lazy" decoding="async" alt="Промышленная фильтрационная установка для станков лазерной резки TODC-6L"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Промышленная фильтрационная установка для станков лазерной резки TODC-6L</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/promyshlennaya-filtraczionnaya-ustanovka-dlya-stankov-lazernoj-rezki-todc-6l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система фильтрации&quot;]">
+<div class="product-picture"><img src="assets/157dab7e3dce5de6.webp" loading="lazy" decoding="async" alt="Промышленная фильтрационная установка для станков лазерной резки TODC-8L"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Промышленная фильтрационная установка для станков лазерной резки TODC-8L</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/promyshlennaya-filtraczionnaya-ustanovka-dlya-stankov-lazernoj-rezki-todc-8l/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;]">
+<div class="product-picture"><img src="assets/27f253b10ebfbd2a.webp" loading="lazy" decoding="async" alt="Ручная Лазерная чистка металла LightCLEAN 1500w"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Ручная Лазерная чистка металла LightCLEAN 1500w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/ruchnaya-lazernaya-chistka-metalla-lightclean-1500w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="finish" data-types="[&quot;Лазерная очистка металла от ржавчины&quot;]">
+<div class="product-picture"><img src="assets/27f253b10ebfbd2a.webp" loading="lazy" decoding="async" alt="Ручная Лазерная чистка металла LightCLEAN 2000w"></div>
+<div class="product-body"><p class="product-type">Лазерная очистка металла от ржавчины</p>
+<h2>Ручная Лазерная чистка металла LightCLEAN 2000w</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/ruchnaya-lazernaya-chistka-metalla-lightclean-2000w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/934ce5fffc2bd033.webp" loading="lazy" decoding="async" alt="Сервомоторы Delta 750w с редуктором"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Сервомоторы Delta 750w с редуктором</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/servomotory-delta-750w-s-reduktorom/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/1cf8a1ab48a44e13.webp" loading="lazy" decoding="async" alt="Сервомоторы Yaskawa 750w с редуктором"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Сервомоторы Yaskawa 750w с редуктором</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/servomotory-yaskawa-750w-s-reduktorom/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/1cf8a1ab48a44e13.webp" loading="lazy" decoding="async" alt="Сервомоторы Yaskawa 850w с редуктором"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Сервомоторы Yaskawa 850w с редуктором</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/servomotory-yaskawa-850w-s-reduktorom/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/f4429c68b9bea870.webp" loading="lazy" decoding="async" alt="Система масляного тумана"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Система масляного тумана</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/sistema-maslyanogo-tumana/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/b5235511319a5dc3.webp" loading="lazy" decoding="async" alt="Система управления DSP пульт NK105G3 ( 4 оси )"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Система управления DSP пульт NK105G3 ( 4 оси )</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/sistema-upravleniya-dsp-pult-nk105g3-4-osi/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Системы управления и лазерные головки&quot;]">
+<div class="product-picture"><img src="assets/46438629161c8d23.webp" loading="lazy" decoding="async" alt="Система управления Syntec 60W"></div>
+<div class="product-body"><p class="product-type">Системы управления и лазерные головки</p>
+<h2>Система управления Syntec 60W</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/sistema-upravleniya-syntec-60w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="wood" data-types="[&quot;Сверлильно присадочные станки&quot;]">
+<div class="product-picture"><img src="assets/daa8307b75dd6d72.webp" loading="lazy" decoding="async" alt="Сверлильно присадочный станок MZ 7121A"></div>
+<div class="product-body"><p class="product-type">Сверлильно присадочные станки</p>
+<h2>Сверлильно присадочный станок MZ 7121A</h2><p class="product-note">Дерево и плиты</p>
+<a href="https://topstanki.ru/product/sverlilno-prisadochnyj-stanok-mz-7121a/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарно фрезерные станки с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/72ed8163b733a0f9.webp" loading="lazy" decoding="async" alt="Токарно фрезерный станок с ЧПУ по дереву TS-1200"></div>
+<div class="product-body"><p class="product-type">Токарно фрезерные станки с ЧПУ</p>
+<h2>Токарно фрезерный станок с ЧПУ по дереву TS-1200</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarno-frezernyj-stanok-s-chpu-po-derevu-ts-1200/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарно фрезерные станки с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/72ed8163b733a0f9.webp" loading="lazy" decoding="async" alt="Токарно фрезерный станок с ЧПУ по дереву TS-1300 x 2"></div>
+<div class="product-body"><p class="product-type">Токарно фрезерные станки с ЧПУ</p>
+<h2>Токарно фрезерный станок с ЧПУ по дереву TS-1300 x 2</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarno-frezernyj-stanok-s-chpu-po-derevu-ts-1300-x-2/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарно фрезерные станки с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/72ed8163b733a0f9.webp" loading="lazy" decoding="async" alt="Токарно фрезерный станок с ЧПУ по дереву TS-1500"></div>
+<div class="product-body"><p class="product-type">Токарно фрезерные станки с ЧПУ</p>
+<h2>Токарно фрезерный станок с ЧПУ по дереву TS-1500</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarno-frezernyj-stanok-s-chpu-po-derevu-ts-1500/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарно фрезерные станки с ЧПУ&quot;]">
+<div class="product-picture"><img src="assets/0adea30364412756.webp" loading="lazy" decoding="async" alt="Токарно фрезерный станок с ЧПУ по дереву TS-1515 x 4"></div>
+<div class="product-body"><p class="product-type">Токарно фрезерные станки с ЧПУ</p>
+<h2>Токарно фрезерный станок с ЧПУ по дереву TS-1515 x 4</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarno-frezernyj-stanok-s-chpu-po-derevu-ts-1515-x-4/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарные станки с ЧПУ по металлу&quot;]">
+<div class="product-picture"><img src="assets/7e296fe2cdebc15f.webp" loading="lazy" decoding="async" alt="Токарный станок с ЧПУ по металлу CK-6130"></div>
+<div class="product-body"><p class="product-type">Токарные станки с ЧПУ по металлу</p>
+<h2>Токарный станок с ЧПУ по металлу CK-6130</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarnyj-stanok-s-chpu-po-metallu-ck-6130/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарные станки с ЧПУ по металлу&quot;]">
+<div class="product-picture"><img src="assets/b1afdde6ff5f8193.webp" loading="lazy" decoding="async" alt="Токарный станок с ЧПУ по металлу CK-6140"></div>
+<div class="product-body"><p class="product-type">Токарные станки с ЧПУ по металлу</p>
+<h2>Токарный станок с ЧПУ по металлу CK-6140</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarnyj-stanok-s-chpu-po-metallu-ck-6140/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарные станки с ЧПУ по металлу&quot;]">
+<div class="product-picture"><img src="assets/b4a85dbb00892633.webp" loading="lazy" decoding="async" alt="Токарный станок с ЧПУ по металлу CK-6163B"></div>
+<div class="product-body"><p class="product-type">Токарные станки с ЧПУ по металлу</p>
+<h2>Токарный станок с ЧПУ по металлу CK-6163B</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarnyj-stanok-s-chpu-po-metallu-ck-6163b/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарные станки с ЧПУ по металлу&quot;]">
+<div class="product-picture"><img src="assets/116fe5bc937466a0.webp" loading="lazy" decoding="async" alt="Токарный станок с ЧПУ по металлу CKE-6150"></div>
+<div class="product-body"><p class="product-type">Токарные станки с ЧПУ по металлу</p>
+<h2>Токарный станок с ЧПУ по металлу CKE-6150</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarnyj-stanok-s-chpu-po-metallu-cke-6150/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Токарные станки с ЧПУ по металлу&quot;]">
+<div class="product-picture"><img src="assets/116fe5bc937466a0.webp" loading="lazy" decoding="async" alt="Токарный станок с ЧПУ по металлу CW-61160"></div>
+<div class="product-body"><p class="product-type">Токарные станки с ЧПУ по металлу</p>
+<h2>Токарный станок с ЧПУ по металлу CW-61160</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/tokarnyj-stanok-s-chpu-po-metallu-cw-61160/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Стабилизаторы&quot;]">
+<div class="product-picture"><img src="assets/16b41428ac00206e.webp" loading="lazy" decoding="async" alt="Трехфазный регулятор мощности для лазерной резки SBW-W"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Трехфазный регулятор мощности для лазерной резки SBW-W</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/trehfaznyj-regulyator-moshhnosti-dlya-lazernoj-rezki-sbw-w/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/d302c4fd80b6b794.webp" loading="lazy" decoding="async" alt="Вакуумный насос Роторно-пластинчатого типа 5.5 кВт, 160 м3"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Вакуумный насос Роторно-пластинчатого типа 5.5 кВт, 160 м3</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vakuumnyj-nasos-rotorno-plastinchatogo-tipa-5-5-kvt-160-m3/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/d302c4fd80b6b794.webp" loading="lazy" decoding="async" alt="Вакуумный насос Роторно-пластинчатого типа 5.5 кВт, 250 м3"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Вакуумный насос Роторно-пластинчатого типа 5.5 кВт, 250 м3</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vakuumnyj-nasos-rotorno-plastinchatogo-tipa-5-5-kvt-250-m3/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/5588ad87facd03e1.webp" loading="lazy" decoding="async" alt="Вакуумный насос Вихревого типа 5.5 кВт, 1 контурный"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Вакуумный насос Вихревого типа 5.5 кВт, 1 контурный</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vakuumnyj-nasos-vihrevogo-tipa-5-5-kvt-1-konturnyj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/5588ad87facd03e1.webp" loading="lazy" decoding="async" alt="Вакуумный насос Вихревого типа 5.5 кВт, 2х контурный"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Вакуумный насос Вихревого типа 5.5 кВт, 2х контурный</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vakuumnyj-nasos-vihrevogo-tipa-5-5-kvt-2h-konturnyj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/5588ad87facd03e1.webp" loading="lazy" decoding="async" alt="Вакуумный насос Вихревого типа 7.5 кВт, 1 контурный"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Вакуумный насос Вихревого типа 7.5 кВт, 1 контурный</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vakuumnyj-nasos-vihrevogo-tipa-7-5-kvt-1-konturnyj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/5588ad87facd03e1.webp" loading="lazy" decoding="async" alt="Вакуумный насос Вихревого типа 7.5 кВт, 2 контурный"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Вакуумный насос Вихревого типа 7.5 кВт, 2 контурный</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vakuumnyj-nasos-vihrevogo-tipa-7-5-kvt-2-konturnyj/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Стационарные аспирационные установки&quot;]">
+<div class="product-picture"><img src="assets/7d643126514708b0.webp" loading="lazy" decoding="async" alt="Передвижная ВАУ МТ «КАМА 1500»"></div>
+<div class="product-body"><p class="product-type">Стационарные аспирационные установки</p>
+<h2>Передвижная ВАУ МТ «КАМА 1500»</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/ventilyaczionno-aspiraczionnaya-ustanovka-%c2%abkama%c2%bb-3-000-modulnogo-tipa-kopirovat/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Вертикально обрабатывающий центр&quot;]">
+<div class="product-picture"><img src="assets/7d6df847153ff760.webp" loading="lazy" decoding="async" alt="Вертикально обрабатывающий центр TS-VMC1050"></div>
+<div class="product-body"><p class="product-type">Вертикально обрабатывающий центр</p>
+<h2>Вертикально обрабатывающий центр TS-VMC1050</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/vertikalno-obrabatyvayushhij-czentr-ts-vmc1050/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Вертикально обрабатывающий центр&quot;]">
+<div class="product-picture"><img src="assets/6d30cfb3352a815b.webp" loading="lazy" decoding="async" alt="Вертикально обрабатывающий центр TS-VMC1160"></div>
+<div class="product-body"><p class="product-type">Вертикально обрабатывающий центр</p>
+<h2>Вертикально обрабатывающий центр TS-VMC1160</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/vertikalno-obrabatyvayushhij-czentr-ts-vmc1160/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Вертикально обрабатывающий центр&quot;]">
+<div class="product-picture"><img src="assets/d4bc5a2e094bb7b5.webp" loading="lazy" decoding="async" alt="Вертикально обрабатывающий центр TS-VMC1370"></div>
+<div class="product-body"><p class="product-type">Вертикально обрабатывающий центр</p>
+<h2>Вертикально обрабатывающий центр TS-VMC1370</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/vertikalno-obrabatyvayushhij-czentr-ts-vmc1370/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Вертикально обрабатывающий центр&quot;]">
+<div class="product-picture"><img src="assets/d44db19c9d85d093.webp" loading="lazy" decoding="async" alt="Вертикально обрабатывающий центр TS-VMC1580"></div>
+<div class="product-body"><p class="product-type">Вертикально обрабатывающий центр</p>
+<h2>Вертикально обрабатывающий центр TS-VMC1580</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/vertikalno-obrabatyvayushhij-czentr-ts-vmc1580/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="metal" data-types="[&quot;Вертикально обрабатывающий центр&quot;]">
+<div class="product-picture"><img src="assets/4ab1023cbd72c5b7.webp" loading="lazy" decoding="async" alt="Вертикально обрабатывающий центр TS-VMC1890"></div>
+<div class="product-body"><p class="product-type">Вертикально обрабатывающий центр</p>
+<h2>Вертикально обрабатывающий центр TS-VMC1890</h2><p class="product-note">Металл</p>
+<a href="https://topstanki.ru/product/vertikalno-obrabatyvayushhij-czentr-ts-vmc1890/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Компрессор&quot;]">
+<div class="product-picture"><img src="assets/fc68a9f204d1a51a.webp" loading="lazy" decoding="async" alt="Винтовой воздушный компрессор для лазерной резки TG-20CTAS-16-500"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Винтовой воздушный компрессор для лазерной резки TG-20CTAS-16-500</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vintovoj-vozdushnyj-kompressor-dlya-lazernoj-rezki-tg-20ctas-16-500/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Доп оборудование для лазерных станков&quot;, &quot;Система фильтрации&quot;]">
+<div class="product-picture"><img src="assets/fc68a9f204d1a51a.webp" loading="lazy" decoding="async" alt="Винтовой воздушный компрессор для лазерной резки TG-30CTAS-16-500"></div>
+<div class="product-body"><p class="product-type">Доп оборудование для лазерных станков</p>
+<h2>Винтовой воздушный компрессор для лазерной резки TG-30CTAS-16-500</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vintovoj-vozdushnyj-kompressor-dlya-lazernoj-rezki-tg-30ctas-16-500/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article><article class="product" data-task="parts" data-types="[&quot;Опции для фрезера ЧПУ&quot;, &quot;Расходники и запчасти&quot;]">
+<div class="product-picture"><img src="assets/dabd437a0e384d5c.webp" loading="lazy" decoding="async" alt="Высота оси Z — 400 мм"></div>
+<div class="product-body"><p class="product-type">Опции для фрезера ЧПУ</p>
+<h2>Высота оси Z — 400 мм</h2><p class="product-note">Комплектующие и инфраструктура</p>
+<a href="https://topstanki.ru/product/vysota-osi-z-400-mm/">Характеристики на ТОПСТАНКИ <span aria-hidden="true">↗</span></a></div>
+</article></div>
+<button class="button secondary more" type="button" id="more" hidden>Показать ещё</button>
+</div>
+</section></main>
+<footer class="shell footer">
+<a class="brand" href="index.html"><span class="symbol" aria-hidden="true">Т</span>ТОПСТАНКИ</a>
+<span>Оборудование для производства · Екатеринбург</span>
+<a href="mailto:info@topstanki.ru">info@topstanki.ru</a>
+</footer>
+</body>
+</html>
